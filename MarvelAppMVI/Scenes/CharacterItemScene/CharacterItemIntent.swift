@@ -35,6 +35,7 @@ extension CharacterItemView {
             } catch {
                 model?.presentLoading(false)
                 print("Error fetching series: \(error)")
+                
             }
         }
 

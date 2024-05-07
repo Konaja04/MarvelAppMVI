@@ -98,7 +98,7 @@ struct CharacterItemView: View {
                                     }
                                     .frame(width:300,height: 350)
                                     .cornerRadius(30)
-                                    .shadow(color: Color.black.opacity(0.5), radius: 5, x: 0, y: 5)
+                                    .shadow(color: Color.black.opacity(0.4), radius: 5, x: 0, y: 5)
                                     .containerRelativeFrame(.horizontal)
                                     
                                 }
